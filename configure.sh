@@ -10,11 +10,15 @@ chmod 755 /usr/local/bin/psiphon-tunnel-core-x86_64
 
 echo "### add init script ###"
 
-INIT_SCRIPT="local.psiphon"
+INIT_SCRIPT="psiphon"
 
 
 cp $INIT_SCRIPT /etc/init.d/
 chmod 755 /etc/init.d/$INIT_SCRIPT
-sudo update-rc.d $INIT_SCRIPT defaults
-chkconfig --add $INIT_SCRIPT
-chkconfig $INIT_SCRIPT on
+update-rc.d $INIT_SCRIPT defaults
+
+echo "### start psiphon client ###"
+service myservice start
+
+#chkconfig --add $INIT_SCRIPT
+#chkconfig $INIT_SCRIPT on

@@ -1,0 +1,14 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          psiphon
+# Required-Start:    $start
+# Required-Stop:     $shutdown
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: psiphine init scipt
+# Description:       init script for the psiphon proxy client
+### END INIT INFO
+# Author: Alexander Wiechert
+
+# Aktionen
+psiphon-tunnel-core-x86_64 -config client.free.conf
