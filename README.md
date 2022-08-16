@@ -1,8 +1,12 @@
 # Psiphond  client
 
-Checkout https://github.com/AlexanderWiechert/psiphon-server and build server. 
+Checkout https://github.com/AlexanderWiechert/psiphon-server and build server as described there.
 
-Copy Token from psiphon-server output and paste it under TargetServerEntry in client.conf
+```
+docker build -t psiphon-client .
+docker run --rm -it psiphon-client:latest
+```
+Copy Token from psiphon-server output and paste it under _**TargetServerEntry**_ in client.conf
 
 Start container and add 127.0.0.1 8081 as Proxy in your browser.
 
