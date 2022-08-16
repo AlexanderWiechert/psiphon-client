@@ -15,3 +15,7 @@ Start container and add 127.0.0.1 8081 as Proxy in your browser.
 "TargetServerEntry" : "__TOKEN__"
 }
 ```
+
+## Speedtest
+This is the speedtest result when running both server and client on localhost.
+![speedtest.jpeg ](speedtest.jpeg )
