@@ -23,3 +23,11 @@ Start container and add 127.0.0.1 8081 as Proxy in your browser.
 ## Speedtest
 This is the speedtest result when running both server and client on localhost.
 ![speedtest.jpeg ](speedtest.jpeg )
+
+# Alexander Wiechert // Elastic2ls
+
+[Website](https://www.elastic2ls.com/)
+
+[Contact](info@elastic2ls.com)
+
+[License](https://github.com/AlexanderWiechert/.github/blob/main/LICENSE)
